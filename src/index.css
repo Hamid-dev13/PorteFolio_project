@@ -1,11 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 .background-image {
     background-image: url('../assets/DevBG.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+  }
+  .PDP{
+    background-image: url('../assets/file.jpg');
+    height:200px;
+    width:200px
   }
   

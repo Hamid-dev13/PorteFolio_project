@@ -4,7 +4,12 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        // Ajout de la police Roboto
+        roboto: ['Roboto', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
-}
+};
